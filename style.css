@@ -1,0 +1,538 @@
+*{
+    margin: 0%;
+   
+}
+.header {
+    background-image: url('door.img.jpg'); 
+    background-repeat: no-repeat; 
+background-size: cover;
+width: 100%;
+min-height: 65vh;
+position: relative;
+
+}
+.sheet2 {
+    color:white;
+     text-decoration: none;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 100%; 
+       text-align: right;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    
+
+}       
+
+button {
+    border: none;
+    background-color: white;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 2%;
+
+}
+
+button:focus {
+    outline: none;
+}
+botton:active{
+    border-radius: 100%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.wide{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    
+
+}
+.images {
+    position: relative; 
+    margin: 7%;
+    margin-left: 5%;
+    margin-bottom: 25%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.im1, .im2, .im3 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+ .im3:hover{
+    background-color: #A9A9A9;;
+}
+
+.im2:hover{
+    background-color: #A9A9A9;
+}
+
+.im1:hover{
+    background-color:#A9A9A9;
+}
+div.im2 {
+    left: 35%;
+   
+}
+div.im3 {
+    left: 70%;
+}
+
+.img4 {
+    width: 300px;
+    height: 160px;
+    
+}
+.linked{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+    
+}
+.sign{
+    position: absolute;
+     padding: 20px;
+    left: 40%;
+    
+    font-family: comic sans ms;
+}
+div.women{
+    position: absolute;
+    left:36.5%;
+    top:55%
+   
+}
+div.girl{
+    position: absolute;
+    left: 61.5%;
+    top: 54.5%;
+    
+    
+    
+}
+
+.in:hover{
+    background-color: darkblue;
+}
+.simple:hover{
+    background-color: grey;
+}
+.conta{
+    position: relative;
+    width:auto;
+    top: 180px;
+}
+.no{
+    position: absolute;
+left: 550px;
+width: 65px;
+height: 40px;
+}
+.kite{
+    position: absolute;
+    left: 90px;
+    top: 180px;
+    
+}
+.go{
+    border:0px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 100px;
+
+    
+}
+.go:hover{
+    background-color: darkblue;
+}
+.cursor{
+    position: relative;
+    background-color: antiquewhite;
+    top: 690px;
+    z-index: -1;
+}
+ 
+.abi{
+    position: relative;
+left: 950px;
+position: absolute;
+bottom:30%;
+}
+.black{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.black:hover{
+    background-color: darkblue;
+}
+.pep{
+    position: relative;
+    top: 750px;
+
+}
+.pepsi{
+    position: absolute;
+    left:600px;
+    width:180px;
+     height:140px;
+   }
+   .cover{
+    position: absolute;
+    left:150px;
+    position: relative;
+bottom: 150%;
+   }
+   .raz{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+   }
+   .raz:hover{
+    background-color: darkblue;
+   }
+   .saved:hover{
+    background-color: grey;
+   }
+
+   .case{
+    position: relative;
+    background-color: #ffe6e8;
+    /* border: 2px solid black; */
+    top: 1000px;
+z-index: -1;
+   }
+   .edit{
+    position: absolute;
+    left:50%;
+    /* top: 650%; */
+   }
+
+   .belt{
+    position: relative;
+    top: 150%;
+    left:90px
+   }
+   .pack{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .pack{
+    position: relative;
+    left:180px;
+   }
+   .flower{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .flower{
+    position: relative;
+    left:10%;
+   }
+   .flower:hover{
+    background-color: darkblue;
+   }
+   .mosq{
+    position: relative;
+    left:12%;
+   
+   }
+   /* .reference{ */
+    /* position: relative; */
+    /* left:45%; */
+    /* top:80%; */
+   
+   
+   .cotton{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .cotton{
+    position: relative;
+    right:-195px;
+   }
+   .cotton:hover{
+    background-color: darkblue;
+   }
+   .gtb{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+   }
+   .gtb{
+    position: relative;
+    left: 35%;
+   }
+   .gtb:hover{
+    background-color: darkblue;
+   }
+   .hadd{
+    position: absolute;
+    /* left:50%; */
+    top:520%;
+   }
+   .all{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:540%;
+   }
+   .plus{
+    position: absolute;
+    left:20%;
+    top: 35%;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+   .pillow{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   }
+   .pillow:hover{
+    background-color: darkblue;
+   }
+   .pillow{
+    position: absolute;
+    left:3%;
+   }
+   .green{
+    display: flex;
+    align-items: center;
+    background-color:#ffe6e8;
+    padding:  70px 75px;
+    position: absolute;
+    top:600%;
+    z-index: -1;
+    /* width:100% */
+   }
+    .biro{
+        margin-right: 20px;
+        padding: 10px 70px;
+    }
+    .talk{
+        border: none;
+        border-radius: 20px;
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+   .talk:hover{
+    background-color: darkblue;
+   }
+   .footer{
+    background-color: black;
+    color: white;
+    padding: 30px 110px;
+    position: absolute;
+    top:675%;
+    /* max-width: 170%; */
+    
+   }
+.bigcontainer{
+    max-width: 1300px;
+    margin:auto;
+}
+.bigi{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+.footie{
+    width: 15%;
+    padding: 0 5px;
+}
+
+.one{
+    padding-left: 120px;
+}
+.footie h4{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 15px;
+    position: relative;
+font-weight: 500px;
+margin-left: 40px;
+
+
+}
+.footie li a {
+    text-decoration: none;
+    color: lightgray;
+    font-family: comic sans ms;
+    font-size: 13px;
+    display: block;
+    margin-top: 10px;
+    
+}
+.footie li a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+.key{
+    margin-left: 50px;
+}
+
+.playstore ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.playstore li {
+    display: inline-block;
+    margin: 5px;
+    margin-left: 10px;
+}
+.download {
+    width: 130px;
+    height: 40px;
+    background: rgb(66, 61, 61);
+    border-radius: 10px;
+    position: relative;
+    color: lightgray;
+    cursor: pointer;
+    border: 2px solid rgb(66, 61, 61);
+}
+.download .fa {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+.p1 .p2 {
+    position: absolute;
+    
+}
+.p1 {
+    top: 5px;
+    font-size: 10px;
+    }
+.p2 {
+    top: 5px;
+    font-size: 14px;
+    margin-left: 15px;
+    padding-top: 1px;
+}
+.googleplay {
+    margin-top: 20px;
+}
+.p3 {
+    margin-left: 20px;
+
+}
+.house{
+    margin-top: 50px;
+
+}
+.seven , .eight  {
+    margin-top: 50px;
+}
+
+.playstore{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.skit{
+    margin-left: 160px;
+    margin-top: 35px;
+    
+}
+.skit a {
+    float: left;
+    padding: 8px;
+    margin-top: 15px;
+
+}
+.skit a :hover{
+    color: yellow;
+    text-decoration: underline;
+
+}
+.butter{
+    float: left;
+}
+select{
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    /* padding: 10px 20px; */
+    font-size: 15px;
+    text-align: right;
+
+}
+.vc{
+    float: left;
+    margin-top:15px;
+}
+.corn{
+    float:left;
+    display: flex;
+    margin-top: 20px;
+    /* padding:  0 10px; */
+}
+
